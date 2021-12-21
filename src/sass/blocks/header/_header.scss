@@ -1,0 +1,86 @@
+.header {
+
+    &__wrapper {
+
+      width: 1160px;
+      display: grid;
+      grid-template-columns: 116px 825px;
+      justify-content: space-between;
+      margin: 47px auto 0 auto;
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: 425px 200px 40px;
+      justify-content: space-between;
+    }
+
+    &__btns {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__btn {
+
+      &_login {
+        background-color: transparent;
+        border: none;
+        font-family: 'Google Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        color: #212832;
+      }
+
+      &_signup {
+        padding: 9px 22px;
+        font-family: 'Google Sans', sans-serif;
+        border: 1px solid #212832;
+        border-radius: 5px;
+        background-color: transparent;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
+        color: #212832;
+      }
+    }
+}
+.logo {
+
+  &__image {
+    width: 116px;
+  }
+}
+.menu {
+  position: relative;
+  &__list {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list-item {
+    display: inline-block;
+  }
+
+  &__list-link {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+  }
+}
+.btn {
+}
+.localization {
+  display: flex;
+  align-items: center;
+}
