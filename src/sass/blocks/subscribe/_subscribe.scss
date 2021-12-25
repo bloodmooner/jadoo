@@ -1,0 +1,114 @@
+.subscribe {
+
+  &__card-wrapper {
+    position: relative;
+    width: 1170px;
+    margin: 190px auto 0 auto;
+    background-color: rgba(#DFD7F9, 0.2);
+    border-radius: 129px 20px 20px 20px;
+    z-index: 5;
+  }
+
+  &__image {
+    position: absolute;
+    right: -20px;
+    top: -22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__bg {
+    position: absolute;
+    z-index: 10;
+    &_lb {
+      left: 10px;
+      bottom: 0;
+    }
+
+    &_rt {
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &__content {
+    padding: 71px 147px 78px 148px;
+  }
+
+  &__title {
+    position: relative;
+    width: 860px;
+    margin: 0 auto;
+    z-index: 25;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+    text-align: center;
+    color: #5E6282;
+  }
+
+  &__form {
+    display: flex;
+    width: 660px;
+    margin: 72px auto 0 auto;
+
+  }
+
+  &__input-container {
+    position: relative;
+    &::after {
+      content: '';
+      background-image: url('../../../assets/svg/subscribe_mail.svg');
+      position: absolute;
+      top: 50%;
+      left: 25px;
+      transform: translateY(-50%);
+      width: 21px;
+      height: 18px;
+      z-index: 20;
+    }
+  }
+
+  &__input {
+    position: relative;
+    border: none;
+    width: 326px;
+    padding: 25px 25px 25px 65px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #39425D;
+    z-index: 15;
+
+  }
+
+  &__button {
+    margin-left: 24px;
+    border: none;
+    padding: 22px 50px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

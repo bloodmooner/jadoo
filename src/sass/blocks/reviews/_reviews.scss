@@ -1,0 +1,126 @@
+.reviews {
+
+  &__wrapper {
+    width: 1070px;
+    margin: 211px auto 0 auto;
+    display: grid;
+    grid-template-columns: 410px 670px;
+    column-gap: 87px;
+  }
+
+  &__caption {
+  }
+
+  &__category {
+  }
+
+  &__subtitle {
+    text-align-last: left;
+  }
+
+  &__title {
+    margin-top: 10px;
+    font-family: 'Volkhov', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+  }
+
+  &__dots {
+    display: flex;
+    margin-top: 82px;
+  }
+
+  &__dot {
+    margin-left: 26px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #E5E5E5;
+    &:first-child {
+      margin-left: 0;
+    }
+    &_active {
+      background-color: #39425D;
+    }
+  }
+
+  &__slider {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__slider-wrapper {
+    margin-left: 35px;
+  }
+
+  &__slider-item {
+    position: relative;
+    padding: 55px 68px 34px 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 10px;
+  }
+
+  &__slider-avatar {
+    position: absolute;
+    left: -37px;
+    top: -8px;
+  }
+
+  &__slider-text {
+    width: 402px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5E6282;
+  }
+
+  &__slider-author {
+    margin-top: 34px;
+  }
+
+  &__slider-name {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E6282;
+  }
+
+  &__slider-info {
+    margin-top: 5px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E6282;
+  }
+
+  &__slider-arrows {
+    position: absolute;
+    right: 0;
+    top: 45%;
+  }
+
+  &__slider-arrow {
+    cursor: pointer;
+    &_top {
+    }
+
+    &_bottom {
+      margin-top: 40px;
+    }
+  }
+}
+

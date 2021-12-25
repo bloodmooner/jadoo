@@ -1,0 +1,144 @@
+.footer {
+
+  &__wrapper {
+    width: 1060px;
+    margin: 165px auto 0 auto;
+    display: grid;
+    grid-template-columns: 210px 475px 215px;
+    justify-content: space-between;
+  }
+
+  &__caption {
+  }
+
+  &__logo {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #181E4B;
+  }
+
+  &__description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 124.5%;
+    color: #5E6282;
+  }
+
+  &__menu {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu-container {
+
+
+  }
+
+  &__menu-title {
+    margin-bottom: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 124.5%;
+    color: #080809;
+  }
+
+  &__menu-list {
+    list-style-type: none;
+
+  }
+
+  &__menu-item {
+    display: block;
+    padding-top: 10px;
+    &:first-child {
+      padding-top: 0;
+    }
+
+  }
+
+  &__menu-link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    color: #5E6282;
+  }
+
+  &__links {
+    margin-top: 26px;
+  }
+
+  &__social-wrapper {
+    display: flex;
+  }
+
+  &__social-link {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    &:first-child {
+      margin-left: 0;
+    }
+    &_active {
+      background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+    }
+  }
+
+  &__social-image {
+
+    &_active {
+    }
+  }
+
+  &__apps-title {
+    margin-top: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124.5%;
+    letter-spacing: 0.005em;
+    color: #5E6282;
+  }
+
+  &__apps-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__apps-item {
+  }
+
+
+  &__copyright {
+    margin: 80px 0;
+  }
+
+  &__copyright-link {
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    color: #5E6282;
+  }
+}
