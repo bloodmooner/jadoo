@@ -14,21 +14,40 @@
     display: grid;
     grid-template-columns: repeat(3, 314px);
     column-gap: 35px;
+    position: relative;
+
 
   }
 
   &__item {
+    position: relative;
+
+  }
+
+  &__bg {
+    position: absolute;
+    right: -36px;
+    top: 50%;
+    transform: translateY(-30%);
+    width: 98px;
+    height: 254px;
+    background-image: url('../../../assets/svg/dest-bg.svg');
+    z-index: -1;
   }
 
   &__image {
+    position: relative;
     width: 100%;
     height: 327px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px 20px 0 0;
+
   }
 
   &__content {
+    position: relative;
+    background-color: #fff;
     padding: 27px 25px 42px 20px;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
     border-radius: 0px 0px 24px 24px;
